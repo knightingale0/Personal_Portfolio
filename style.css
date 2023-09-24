@@ -3,8 +3,12 @@ body{
     text-align: center;
     border: 2px solid black;
     margin: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header, main, footer{
     background-color: rgb(173, 132, 197);
+    border: 2px solid rgb(26, 6, 37);
+    padding: 15px;
+    
 }
