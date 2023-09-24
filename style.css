@@ -1,6 +1,10 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(107, 39, 146);
     text-align: center;
     border: 2px solid black;
     margin: 30px;
+}
+
+header, main, footer{
+    background-color: rgb(173, 132, 197);
 }
