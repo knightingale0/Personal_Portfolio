@@ -12,3 +12,11 @@ header, main, footer{
     padding: 15px;
     
 }
+
+main{
+    text-align: left;
+}
+
+main h2, main h3{
+    text-align: center;
+}
