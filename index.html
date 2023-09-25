@@ -9,6 +9,18 @@
     </head>
 
     <body>
+        <script>
+            var password = "partnerincrime";
+            (function passcodeprotect() {
+                var passcode = prompt("Enter PassCode");
+                while (passcode !== password) {
+                    alert("Incorrect PassCode");
+                    return passcodeprotect();
+                }
+            }());
+         alert('Welcome!');
+
+        </script>
         <header>
             <h1>Welcome!</h1>
             <p id="subtitleHeading">A simple HTML page!</p>
@@ -32,17 +44,5 @@
         </footer>
 
 
-        <script>
-            var password = "partnerincrime";
-            (function passcodeprotect() {
-                var passcode = prompt("Enter PassCode");
-                while (passcode !== password) {
-                    alert("Incorrect PassCode");
-                    return passcodeprotect();
-                }
-            }());
-         alert('Welcome!');
-
-        </script>
     </body>
 </html>
