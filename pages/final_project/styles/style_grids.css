@@ -174,7 +174,7 @@ form label{
     /* border: black solid 2px; */
     /* border-bottom: none; */
     /* background-color: #e0e0da; */
-    width: 442px;
+    width: fit-content;
     display: inline-block;
 }
 
@@ -185,7 +185,10 @@ input, textarea{
     box-sizing: border-box;
     background-color: #e0e0da;
     border: solid black 2px;
-    margin: 0 20px ;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 0;
     display: inline-block;
     max-width: 442px;
     width: 90%;
@@ -277,7 +280,6 @@ input[type=submit]:hover {
         min-width: 200px;
         max-width: 90%;
         box-sizing: border-box;
-        margin-right: 50px; 
     }
     
     /* HEADER STUFF */
