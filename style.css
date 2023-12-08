@@ -1,22 +1,43 @@
 body{
-    background-color: rgb(158, 139, 168);
-    text-align: center;
-    border: 2px solid black;
-    margin: 30px;
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    background-color: rgb(110, 78, 122);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header, main, footer{
-    background-color: rgb(173, 132, 197);
+    background-color: rgb(216, 207, 224);
     border: 2px solid rgb(26, 6, 37);
     padding: 15px;
+    margin: 20px;
     
 }
 
-main{
-    text-align: left;
+ul{
+    list-style-type: none;
+    padding: none;
+    margin: none;
 }
 
-main h2, main h3{
-    text-align: center;
+li{
+    padding: 5px;
+    margin: none;
+    width: 400px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(165, 2, 224);
+    padding: 5px;
+    width: 100%;
+}
+
+a:hover{
+    color: chartreuse;
+    background-color: black;
+}
+
+footer{
+    align-self: baseline;
 }
