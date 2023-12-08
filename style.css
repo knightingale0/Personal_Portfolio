@@ -12,7 +12,6 @@ header, main, footer{
     background-color: rgb(216, 207, 224);
     border: 2px solid rgb(26, 6, 37);
     padding: 15px;
-    max-width: 800px;
     margin: 15px;
 }
 
