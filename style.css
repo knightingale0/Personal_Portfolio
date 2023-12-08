@@ -4,14 +4,16 @@ body{
     align-items: center;
     background-color: rgb(110, 78, 122);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin-left: 10%;
 }
 
 header, main, footer{
     background-color: rgb(216, 207, 224);
     border: 2px solid rgb(26, 6, 37);
     padding: 15px;
-    margin: 10px;
-    
+    max-width: 800px;
+    margin: 15px;
 }
 
 ul{
