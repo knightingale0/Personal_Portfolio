@@ -1,0 +1,32 @@
+body{
+    background-color: #2E1A3E;
+    display: grid;
+    grid-template-areas:    "header header header"
+                            "aside picture picture"
+                            "aside text text"
+                            "footer footer footer";
+
+                        
+}
+
+header {
+    grid-area: header;
+    background-color: #E8E8E8;
+    color: #28242B;
+}
+
+main {
+    grid-area: text;
+    background-color: #E8E8E8;
+    color: #303E1A;
+}
+
+aside{
+    grid-area: aside;
+    background-color: #28242B;
+    color: #B559FF;
+}
+
+footer{
+    color: #E8E8E8;
+}
