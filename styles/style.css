@@ -44,6 +44,10 @@ main * {
     margin: 20px;
 }
 
+main > p:before{
+    content: "> ";
+}
+
 
 aside{
     grid-area: aside;
