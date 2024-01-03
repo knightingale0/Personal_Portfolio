@@ -1,662 +1,139 @@
-<html class="k-ff k-ff121" data-lt-installed="true">
-    
+<!DOCTYPE html>
+<html>
     <head>
-        <style type="text/css">
-            [ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
-            
-            .intro {
-                font-family: ABeeZee, sans-serif; 
-                font-size: 12px;
-            }
-            
-            .rules {
-                font-family: ABeeZee, sans-serif; 
-                font-size: 12px;
-            }
-
-            .lots {
-                font-family: ABeeZee, sans-serif; 
-                font-size: 12px;
-            }
-
-            .interments {
-                font-family: ABeeZee, sans-serif; 
-                font-size: 12px;
-            }
-
-            .flowers {
-                font-family: ABeeZee, sans-serif; 
-                font-size: 12px;
-            }
-
-            .monuments {
-                font-family: ABeeZee, sans-serif; 
-                font-size: 12px;
-            }
-
-            .funerals {
-                font-family: ABeeZee, sans-serif; 
-                font-size: 12px;
-            }
-
-        </style>
-
-        <title>Cemetery</title> 
-        <meta name="DESCRIPTION" content=""> 
-        <meta name="KEYWORDS" content=""> 
-        <link rel="stylesheet" type="text/css" href="site.css"> 
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lily Script One"> 
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Bitter"> 
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nyala"> 
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico"> 
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Corbel"> 
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Acme%7cABeeZee"> 
-        <link rel="stylesheet" type="text/css" href="//assets.neo.registeredsite.com/libs/libs.css?ct=1695592290735"> 
-        <link rel="stylesheet" type="text/css" href="//assets.neo.registeredsite.com/plugins/neo.css?ct=1695592290735"> 
-        <script type="text/javascript">
-            var builderSettings = {
-                appRoot: '//app.neo.registeredsite.com/neo/',
-                appRelativePath: '/neo',
-                assetsRoot: '//assets.neo.registeredsite.com',
-                repositoryRoot: '//repository.neo.registeredsite.com',
-                spRoot: '//repository.neo.registeredsite.com/starting-points',
-                usersRoot: '//users.neo.registeredsite.com',
-                sitesearchUrl: '//sitesearch.services.matrixbuilder.com/sitesearch/search',
-                siteDomain: '041464c.netsolhost.com',
-                isBuilder : false,
-                isPreview : false
-                };
-        </script> 
-    
+        <meta charset="utf-8" lang="en">
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <!-- <link rel="stylesheet" type="text/css" href="styles/cemetery.css"> -->
     </head>
 
-    <body class="neo-publish">
-    
-        <!-- New builder template -->
-        <div id="includes" style="display: none">
-            <script type="text/javascript" src="//assets.neo.registeredsite.com/libs/libs.js?ct=1695592290735"></script>
-            <script type="text/javascript" src="//assets.neo.registeredsite.com/libs/tinymce/4.1.7/tinymce.min.js?ct=1695592290735"></script>
-            <div class="sitesearch-plugin-inner"> 
-                <div class="sitesearch-ng" data-ng-controller="neo.SiteSearchPlugin.ngPluginController"> 
-                    <div class="ss-container ss-style-1 sitesearch-id-1" style="width:100%"> 
-                        <form> 
-                            <span class="ss-loading" style="display: none;"></span> 
-                            <input class="ss-text" type="text" value="" placeholder="Search ..."> 
-                            <input class="ss-submit" type="submit" value=""> 
-                        </form> 
-                    </div> 
-                </div> 
-            </div> 
-        
-            <script type="text/webcom-template" id="form-plugin-inner">
-                <div class="form-ng remove-on-save">
-                    <div id="{{FormId}}">inject webcom-form here</div>
+    <body>
+        <div id="notfooter">
+
+            <header>
+                <div>
+                    <h3 style="display: inline-block">Navigational Links</h3>
+                    <img id="hamburger" src="assets/hamburger.svg" alt="a simple vector menu icon" style="display: inline; max-width:1em; border: none;">
                 </div>
-            </script> 
-            <div class="text-plugin-inner"> 
-                <div class="text-ng tiny text-plugin" data-ng-controller="TextPluginController" data-ng-click="select();" data-ng-dblclick="selectAndEdit();" data-module-class="neo.TextModule"></div> 
-            </div>
-            <div class="map-plugin-inner"> 
-                <div class="map-ng remove-on-save"> 
-                    <div class="mapPlugin"> 
-                        <div class="neo-map-address-show"></div> 
-                        <div class="neo-mapquest"></div> 
-                        <div class="neo-map-direction"></div> 
-                    </div> 
-                </div> 
-            </div> 
-            <div class="share-plugin-inner"> 
-                <div class="fb-share-button-placeholder" data-type="button"></div> 
-            </div> 
-            <div class="google-share-plugin-inner"> 
-                <div class="gplus-data" data-action="share"> 
-                    <div class="g-plus" data-action="share"></div> 
-                </div> 
-            </div> 
-            <div class="google-plusone-plugin-inner"> 
-                <div class="gplusone-data"> 
-                    <div class="g-plusone"></div> 
-                </div> 
-            </div> 
-            <div class="tap-plugin-inner"> 
-                <div class="product-data"> 
-                    /*<!-- The product element will be here -->  */
-                </div> 
-            </div> 
-            <script type="text/javascript" src="//assets.neo.registeredsite.com/plugins/neo.js?ct=1695592290735"></script>
-        </div>
-        <div id="neo-sitesearch-result-modal" class="modal-wrapper modal-effect"> 
-            <div class="modal-window"> 
-                <div class="modal-top">
-                    <span>Search Results</span>
-                </div> 
-                <div class="modal-bottom"></div> 
-                <div class="modal-x" data-ng-click="closeSearchResult()"></div> 
-            </div> 
-        </div>
-        <div class="ss-modal-overlay"></div>
-    
-        <!--End Includes-->
-        <div id="canvas" data-ng-app="webcomApp" class="yotal default pagebg sp-supports-nav2 ng-scope" style="background-color: inherit; background-image: none; min-height: 2724px;"> 
-        <div id="top-area" style="width: 960px; height: 0px;" class=""></div> 
-        <div id="page-wrapper"> 
-            <div class="global-region top header-bg" id="header" style="display: block; background-image: none; background-color: inherit;" data-is-full-body-width="true"> 
-                <div class="global-region-inner" 
-                    style="margin: 0px auto; position: relative; 
-                    background-image: none; height: 63px; width: 962px;" 
-                    data-background-custom-colors="[]" 
-                    data-background-indexes="{&quot;global&quot;:{&quot;header&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;footer&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},&quot;local&quot;:[{&quot;pageId&quot;:9924387,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:47}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9925295,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9925255,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9924388,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9925960,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9925280,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9925281,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9925282,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9924385,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9925287,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9925297,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9925298,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9924386,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9925652,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9925953,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9930411,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9930412,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9930413,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9930414,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9930415,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9924391,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9924419,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:18}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9924477,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9924478,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9924392,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9925643,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9931456,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9931457,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:9944661,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},{&quot;pageId&quot;:10087999,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}}]}"> 
-                    
-                    
-                    <div class="neo-asset navigation-2-plugin" id="asset-1513010607495" style="width: 1178px; position: absolute; left: 0px; height: 64px; top: 7.98438px;" data-region="header" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:&quot;none&quot;,&quot;borderBottomStyle&quot;:&quot;none&quot;,&quot;borderLeftStyle&quot;:&quot;none&quot;,&quot;borderRightStyle&quot;:&quot;none&quot;,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;rgba(51,51,51,1)&quot;,&quot;borderLeftColor&quot;:&quot;rgba(51,51,51,1)&quot;,&quot;borderBottomColor&quot;:&quot;rgba(51,51,51,1)&quot;,&quot;borderRightColor&quot;:&quot;rgba(51,51,51,1)&quot;,&quot;borderAllColor&quot;:&quot;rgba(51,51,51,1)&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(86,150,92,1)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-module-class="neo.Navigation2Module" data-plugin-config="{}"> 
-            
-                        <style id="custom-style-for-asset-1513010607495">   
-                            /****************/
-                            /* neo main nav */
-                            /****************/
-                            #asset-1513010607495.main-nav-fixed-plugin .neo-asset-inner > ul > li {
-                                width: 130px;
-                            }
-                                                            
-                            #asset-1513010607495 .neo-asset-inner > ul > li {
-                                padding: 0;
-                                margin-right: 20px;
-                                margin-bottom: 0;
-                                background-color: rgba(0, 0, 0, 0);
-                                font-style: normal;
-                                font-weight: normal;
-                                font-size: 18px;
-                                font-family: Acme;
-                                text-align: left;
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="agenda-minutes.html">Agenda &amp; Minutes &#9660;</a>
+                            <ul>
+                                <li><a href="board-of-trustees.html">Board of Trustees</a></li>
+                                <li><a href="planning-board.html">Planning Board</a></li>
+                                <li><a href="zoning-board-of-appeals.html">Zoning Board of Appeals</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="village-departments.html">Village Departments &#9660;</a>
+                            <ul>
+                                <li><a href="village-clerk.html">Village Clerk</a></li>
+                                <li><a href="financial.html">Financial</a></li>
+                                <li><a href="justice-court.html">Justice Court</a></li>
+                                <li><a href="dept-of-public-works.html">Dept. of Public Works</a></li>
+                                <li><a href="code-enforcement.html">Code Enforcement</a></li>
+                                <li><a href="stormwater-management-ms4.html">Stormwater Management MS4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="police-department.html">Police Department &#9660;</a>
+                            <ul>
+                                <li><a href="police-information.html">Police Information</a></li>
+                                <li><a href="police-reform.html">Police Reform</a></li>
+                                <li><a href="police-certifications.html">Police Certifications</a></li>
+                                <li><a href="police-services.html">Police Services</a></li>
+                                <li><a href="police-history.html">Police History</a></li>
+                                <li><a href="liverpool-pba.html">Liverpool PBA</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="links-forms.html">Links &amp; Forms &#9660;</a>
+                            <ul>
+                                <li><a href="forms.html">Forms</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="village-history.html">Village History</a></li>
+                        <li><a href="cemetery.html">Cemetery &#9660;</a>
+                            <ul>
+                                <li><a href="restoration-project.html">Restoration Project</a></li>
+                                <li><a href="stay-in-touch.html">Stay In Touch</a></li>
+                                <li><a href="donations.html">Donations</a></li>
+                                <li><a href="burials.html">Burials</a></li>
+                                <li><a href="history.html">History</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="general-info-faqs.html">General Info &amp; FAQs &#9660;</a>
+                            <ul>
+                                <li><a href="faqs.html">FAQs</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="tree-committee.html">Tree Committee</a></li>
+                    </ul>
+                </nav>
 
-                                border: 0 none rgb(51, 51, 51);
-
-                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                            }
-
-                            #asset-1513010607495 .neo-asset-inner > ul > li > a {
-                                color: rgb(0, 0, 0);
-                            }
-
-                            #asset-1513010607495 .neo-asset-inner > ul > li.k-state-hover {
-                                padding: 0;
-                                background-color: rgba(0, 0, 0, 0);
-                                font-style: normal;
-                                font-weight: normal;
-                                font-size: 18px;
-                                font-family: Acme;
-                                text-align: left;
-
-                                border: 0 none rgb(51, 51, 51);
+            </header>
         
-                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                            }
-                                    
-                            #asset-1513010607495 .neo-asset-inner > ul > li.k-state-hover > a {
-                                color: rgb(10, 10, 10);
-                            }
-
-                            #asset-1513010607495 .neo-asset-inner > ul > li.k-state-active {
-                                padding: 0;
-                                background-color: rgba(0, 0, 0, 0);
-                                font-style: normal;
-                                font-weight: normal;
-                                font-size: 18px;
-                                font-family: Acme;
-                                text-align: left;
-
-                                border: 0 none rgb(51, 51, 51);
-
-                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                            }
-                                    
-                            #asset-1513010607495 .neo-asset-inner > ul > li.k-state-active > a {
-                                color: rgb(15, 15, 15);
-                            }
-
-                            /***************/
-                            /* neo sub nav */
-                            /***************/
-
-                            #asset-1513010607495.sub-nav-fixed-plugin ul ul > li {
-                                width: 130px;
-                            }
-                            
-                            #asset-1513010607495 ul ul > li {
-                                padding: 10px;
-                                margin-bottom: 0;
-                                background-color: rgb(255, 255, 255);
-                                font-style: normal;
-                                font-weight: normal;
-                                font-size: 18px;
-                                font-family: Acme;
-                                text-align: left;
-
-                                border: 0 none rgb(51, 51, 51);
-                                border-bottom: 1px solid rgb(92, 200, 0);
-
-                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                            }
-
-                            #asset-1513010607495 ul ul > li > a {
-                                color: rgb(92, 200, 0);
-                            }
-
-                            #asset-1513010607495 ul ul > li.k-state-hover {
-                                padding: 10px;
-                                background-color: rgb(255, 255, 255);
-                                font-style: normal;
-                                font-weight: normal;
-                                font-size: 18px;
-                                font-family: Acme;
-                                text-align: left;
-
-                                border: 0 none rgb(51, 51, 51);
-                                border-bottom: 1px solid rgb(92, 200, 0);
-
-                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                            }
-
-                            #asset-1513010607495 ul ul > li.k-state-hover > a {
-                                color: rgb(92, 200, 0);
-                            }
-
-                            #asset-1513010607495 ul ul > li.k-state-active {
-                                padding: 10px;
-                                background-color: rgb(255, 255, 255);
-                                font-style: normal;
-                                font-weight: normal;
-                                font-size: 18px;
-                                font-family: Acme;
-                                text-align: left;
-
-                                border: 0 none rgb(51, 51, 51);
-                                border-bottom: 1px solid rgb(92, 200, 0);
-
-                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
-                            }
-
-                            #asset-1513010607495 ul ul > li.k-state-active > a {
-                                color: rgb(92, 200, 0);
-                            }
-                        </style> 
-        
-                        <div class="neo-asset-inner" style="border-color: rgb(51, 51, 51); background-color: rgb(86, 150, 92); opacity: 1; border-style: none; background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;"> 
-                        </div>
-                        <div style="display:none">    
-                            <!-- nav bar -->
-                            <ul class="k-widget k-reset k-header k-menu k-menu-horizontal" role="menubar" data-role="menu" data-k-orientation="horizontal" data-kendo-menu="" tabindex="0"> 
-                        
-                                <li class="k-item k-state-default k-first ng-scope" id="page-9924387-382422261979" role="menuitem">
-                                    <a class="k-link" href="index.html">Home</a>
-                                </li>
-                                <!--agenda and minutes  -->
-                                <li class="k-item k-state-default ng-scope" id="page-9924391-1092125684342" role="menuitem" style="z-index: auto;">
-                                    <a class="k-link" href="agenda-minutes.html">Agenda &amp; Minutes
-                                        <span class="k-icon k-i-arrow-s"></span>
-                                    </a> 
-                                    <div class="k-animation-container" style="width: 194px; height: 135px; margin-left: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; display: none; position: absolute; z-index: 10002; overflow: hidden; top: 24px; left: 0px;">
-                                        <ul class="neo-navigation-2-submenu k-group k-popup k-reset" role="menu" style="max-height: 248px; overflow: auto; font-size: 18px; font-family: Acme; font-stretch: 100%; font-style: normal; font-weight: 400; line-height: normal; position: absolute; display: none;" data-role="popup" aria-hidden="true">
-                                            <li class="k-item k-state-default k-first" id="page-9924419-920683777214" role="menuitem">
-                                                <a class="k-link" href="board-of-trustees.html">Board of Trustees</a>
-                                            </li> 
-                                            <li class="k-item k-state-default" id="page-10062175-1291739705434" role="menuitem">
-                                                <a class="k-link" href="planning-board.html">Planning Board</a>
-                                            </li> 
-                                            <li class="k-item k-state-default k-last" id="page-9924478-362181369166" role="menuitem">
-                                                <a class="k-link" href="zoning-board-of-appeals.html">Zoning Board of Appeals</a>
-                                            </li>     
-                                        </ul>
-                                    </div>
-                                </li>
-                                <!-- village departments -->
-                                <li class="k-item k-state-default ng-scope" id="page-9924392-1377671171603" role="menuitem">
-                                    <a class="k-link" href="village-departments.html">Village Departments
-                                        <span class="k-icon k-i-arrow-s"></span>
-                                    </a> 
-                                    <ul class="neo-navigation-2-submenu k-group" role="menu" aria-hidden="true"> 
-                                        <li class="k-item k-state-default k-first" id="page-10087999-90076678891" role="menuitem">
-                                            <a class="k-link" href="village-clerk.html">Village Clerk</a>
-                                        </li> 
-                                        <li class="k-item k-state-default" id="page-9925643-605812938203" role="menuitem">
-                                            <a class="k-link" href="financial.html">Financial</a>
-                                        </li> 
-                                        <li class="k-item k-state-default" id="page-9925280-781163566871" role="menuitem">
-                                            <a class="k-link" href="justice-court.html">Justice Court</a>
-                                        </li> 
-                                        <li class="k-item k-state-default" id="page-9925281-468504403222" role="menuitem">
-                                            <a class="k-link" href="dept-of-public-works.html">Dept. of Public Works</a>
-                                        </li> 
-                                        <li class="k-item k-state-default" id="page-9925282-24615489380" role="menuitem">
-                                            <a class="k-link" href="code-enforcement.html">Code Enforcement</a>
-                                        </li> 
-                                        <li class="k-item k-state-default k-last" id="page-18127523-791462978801" role="menuitem">
-                                            <a class="k-link" href="stormwater-management-ms4.html">Stormwater Management MS4</a>
-                                        </li> 
-                                    </ul>
-                                </li>
-                                <!-- police department -->
-                                <li class="k-item k-state-default ng-scope" id="page-9924385-1041844476678" role="menuitem">
-                                    <a class="k-link" href="police-department.html">Police Department
-                                        <span class="k-icon k-i-arrow-s"></span>
-                                    </a> 
-                                    <ul class="neo-navigation-2-submenu k-group" role="menu" aria-hidden="true"> 
-                                    <li class="k-item k-state-default k-first" id="page-9925287-13118971328" role="menuitem">
-                                        <a class="k-link" href="police-information.html">Police Information</a>
-                                    </li> 
-                                    <li class="k-item k-state-default" id="page-16466530-1615691379012" role="menuitem">
-                                        <a class="k-link" href="police-reform.html">Police Reform</a>
-                                    </li> 
-                                    <li class="k-item k-state-default" id="page-14335562-755719378413" role="menuitem">
-                                        <a class="k-link" href="police-certifications.html">Police Certifications</a>
-                                    </li> 
-                                    <li class="k-item k-state-default" id="page-9925295-150651724729" role="menuitem">
-                                        <a class="k-link" href="police-services.html">Police Services</a>
-                                    </li> 
-                                    <li class="k-item k-state-default" id="page-9925297-1454165603516" role="menuitem">
-                                        <a class="k-link" href="police-history.html">Police History</a>
-                                    </li> 
-                                    <li class="k-item k-state-default k-last" id="page-9925298-1043950171792" role="menuitem">
-                                        <a class="k-link" href="liverpool-pba.html">Liverpool PBA</a>
-                                    </li> 
-                                    </ul>
-                                </li>
-                                <!-- links & forms -->
-                                <li class="k-item k-state-default ng-scope" id="page-9931456-756792615459" role="menuitem">
-                                    <a class="k-link" href="links-forms.html">Links &amp; Forms
-                                        <span class="k-icon k-i-arrow-s"></span>
-                                    </a> 
-                                    <ul class="neo-navigation-2-submenu k-group" role="menu" aria-hidden="true"> 
-                                        <li class="k-item k-state-default k-first k-last" id="page-9931457-851298881744" role="menuitem">
-                                            <a class="k-link" href="forms.html">Forms</a>
-                                        </li> 
-                                    </ul>
-                                </li>
-                                <!-- village history -->
-                                <li class="k-item k-state-default ng-scope" id="page-9925652-1669579381945" role="menuitem">
-                                    <a class="k-link" href="village-history.html">Village History</a>
-                                </li>
-                                <!-- cemetary -->
-                                <!-- note, why does this one have a different class??? -->
-                                <li class="k-item k-state-default ng-scope k-state-active selected-page k-state-highlight" id="page-9925953-240167649836" role="menuitem">
-                                    <a class="k-link" href="cemetery.html">Cemetery
-                                        <span class="k-icon k-i-arrow-s"></span>
-                                    </a> 
-                                        <ul class="neo-navigation-2-submenu k-group" role="menu" aria-hidden="true"> 
-                                        <li class="k-item k-state-default k-first" id="page-9930411-844267705801" role="menuitem">
-                                            <a class="k-link" href="restoration-project.html">Restoration Project</a>
-                                        </li> 
-                                        <li class="k-item k-state-default" id="page-9930412-1616500558952" role="menuitem">
-                                            <a class="k-link" href="stay-in-touch.html">Stay In Touch</a>
-                                        </li> 
-                                        <li class="k-item k-state-default" id="page-9930413-1073655136331" role="menuitem">
-                                            <a class="k-link" href="donations.html">Donations</a>
-                                        </li> 
-                                        <li class="k-item k-state-default" id="page-9930414-394301773547" role="menuitem">
-                                            <a class="k-link" href="burials.html">Burials</a>
-                                        </li> 
-                                        <li class="k-item k-state-default k-last" id="page-9930415-1661469864183" role="menuitem">
-                                            <a class="k-link" href="history.html">History</a>
-                                        </li> 
-                                    </ul>
-                                </li>
-                                <!-- faqs -->
-                                <li class="k-item k-state-default ng-scope" id="page-9944661-671288184793" role="menuitem">
-                                    <a class="k-link" href="general-info-faqs.html">General Info &amp; FAQs
-                                        <span class="k-icon k-i-arrow-s"></span>
-                                    </a> 
-                                    <ul class="neo-navigation-2-submenu k-group" role="menu" aria-hidden="true"> 
-                                        <li class="k-item k-state-default k-first" id="page-9925960-1645854702278" role="menuitem">
-                                            <a class="k-link" href="faqs.html">FAQs</a>
-                                        </li> 
-                                        <li class="k-item k-state-default k-last" id="page-10127928-1587157692665" role="menuitem">
-                                            <a class="k-link" href="contact.html">contact</a>
-                                        </li> 
-                                    </ul>
-                                </li>
-                                <!-- tree committee -->
-                                <li class="k-item k-state-default k-last ng-scope" id="page-17592063-868843790677" role="menuitem">
-                                    <a class="k-link" href="tree-committee.html">Tree Committee</a>
-                                </li> 
-                                
-                            </ul>  
-                        </div>  
-                    </div> 
-                </div> 
-            </div> 
-            <div class="global-region center" id="content"> 
-                <div class="global-region-inner" style="position: relative; margin: 0px auto; height: 2311px; width: 962px;"> 
-                    <div class="text-plugin neo-asset ui-draggable-disabled" style="width: 448px; top: 35px; left: 3.3875px; position: absolute; height: auto; z-index: 394;" data-module-class="neo.TextModule" 
-                        data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:null,&quot;borderLeftColor&quot;:null,&quot;borderBottomColor&quot;:null,&quot;borderRightColor&quot;:null,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-region="footer" id="asset-1516037010710" data-ng-controller="TextPluginController" data-ng-click="select();" data-ng-dblclick="selectAndEdit();"> 
-                        
-                        <div class="neo-asset-inner mCS_destroyed mce-content-body mce-edit-focus" style="background-color: rgba(255, 255, 255, 0); opacity: 1; border-style: none; border-color: rgb(51, 51, 51); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px; position: relative;" spellcheck="false" id="asset-1516037010710-neo-asset-inner"> 
-                            <!-- heading -->
-                            <p style="font-family: ABeeZee, sans-serif; font-size: 24px; color: #56965c;" data-mce-style="font-family: ABeeZee, sans-serif; font-size: 24px; color: #56965c;">Village of Liverpool Cemetery</p> 
-                        </div> 
-                    </div> 
-                    
-                    <div class="text-plugin neo-asset" style="width: 957px; height: auto; position: absolute; top: 495.4px; left: 0px; z-index: 398;" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:null,&quot;borderLeftColor&quot;:null,&quot;borderBottomColor&quot;:null,&quot;borderRightColor&quot;:null,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-region="footer" id="asset-1516037091939" data-ng-controller="TextPluginController" data-ng-click="select();" data-ng-dblclick="selectAndEdit();"> 
-                        <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); opacity: 1; border-style: none; border-color: rgb(51, 51, 51); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px; position: relative;" spellcheck="false"> 
-                            
-                            <!-- rules -->
-                            <div style="line-height: 1; text-align: center;">
-                                <span style="font-size: 14px; font-family: ABeeZee, sans-serif; font-weight: bold;">General Rules for the Cemetery</span>
-                            </div>
-
-                            <div style="line-height: 1; text-align: left;">
-                                <p class="rules">All lots are held in accordance with provisions of &sect;1501 of the Not-for-Profit Corporation Law of the State of New York, and of all acts amending the same.</p> 
-                                <p class="rules">The Village of Liverpool Board of Trustees reserves the right to remove, after due notice to the lot owner, any embellishment, effigy, or inscription on a grave which, in the opinion of the majority of the Board, is unsightly or dangerous.</p>
-                                <p class="rules">Heavy trucking or other vehicular traffic shall be refused entrance to the cemetery, when in the opinion of the Superintendent of Public Works, impairment to the roads and driveways may result.</p>
-                                <p class="rules">All persons shall be allowed access to the cemetery during daylight hours, observing the rules which are in effect and the propriety due the cemetery.</p>
-                                <p class="rules">No lot owner shall allow an interment to be made upon their lot except by direct arrangement with the Village of Liverpool. No transfer or assignment of any lot or interest therein will be valid without the consent in writing from the Village of Liverpool. No disinterment or removal from a vault will be allowed without permission from the Village.</p>
-                                <p class="rules">Wooden benches and wooden or artificial markers are strictly forbidden.</p>
-                                <p class="rules">All work done in the cemetery shall be done by cemetery employees under the control of the Superintendent of Public Works.</p>
-                                <p class="rules">No dogs are allowed in the cemetery (on or off leash).</p>
-                                <p class="rules">All terrain vehicles are prohibited.</p>
-                                <p class="rules">Games, parties, and consumption of alcoholic beverages are prohibited.</p>
-                            </div>
-
-                            <!-- lots -->
-                            <div style="line-height: 1; text-align: center;">
-                                <span style="font-size: 14px; font-family: ABeeZee, sans-serif; font-weight: bold;">Lots</span>
-                            </div>
-                            
-                            <div style="line-height: 1; text-align: center;">
-                                <p class="lots">The full purchase price must be paid before a deed will be given or a burial allowed on any lot.</p>
-                                <p class="lots">No enclosure of lots will be allowed but simple corner posts of cut stone may be placed to designate corners or angles of any lot. The corner posts are not to project above the surface of the ground.</p>
-                                <p class="lots">The price of all lots includes an amount for permanent maintenance. A portion of the price of each lot is set aside by the Village of Liverpool in a Cemetery Fund for permanent maintenance. The income from this fund will be used first for keeping lots properly graded, seeded, and mowed; and secondly for the general improvement and beautification of the cemetery grounds.</p>
-                                <p class="lots">This fund does not provide for the special care of headstones, monuments, trees, shrubs and flowers nor for the watering of grass and flowers. Information may be obtained from the Superintendent of Public Works regarding the cost of any special work.</p>
-                                <p class="lots">No sale, transfer, or assignment of any lot or part of any lot will be valid without written consent of the Village Board of Trustees. The record of such a sale or transfer must be made in the records of the cemetery. No person will be recognized as the owner or part owner of a lot unless his of her name appears upon the records of the cemetery as such owner or owners. The joint ownership of lots is not recommended, but where such ownership is deemed necessary it is advised that an agreement be made between the joint owners as to the portion of the lot so owned and the use to be made of it by each party.</p>
-                                <p class="lots">Upon the death of a lot owner, heirs or devisees should record in the office of the cemetery the name of the person whom they designate to act as the lot owner. If this is not done, the cemetery will designate one of their number, as provided by law.</p>
-                            </div>
-                            
-                            <!-- interments -->
-                            <div style="line-height: 1; text-align: center;">
-                                <span style="font-size: 14px; font-family: ABeeZee, sans-serif; font-weight: bold;">Interments</span> 
-                            </div>
-
-                            <div style="line-height: 1; text-align: center;">
-                                <p class="interments">No interment shall be allowed without a permit.</p>
-                                <p class="interments">The Village of Liverpool requires notice of at least twelve working hours in advance of interments. The Village of Liverpool cannot accept responsibility for the location of a grave to be opened when the order is given over the telephone. If there is any question regarding the location, it is recommended that someone in the family visit the grave together with a representative of the Village of Liverpool.</p>
-                                <p class="interments">No graves will be reopened for inspection except for official investigation.</p>
-                                <p class="interments">Lot owners are prohibited from allowing interments to be made on their lots for compensation.</p>
-                                <p class="interments">Interments in a grave are restricted to those entitled to burial therein according to the terms of &sect;1512(c) of the Not-for-Profit Corporation Law. Permission for burial of those not entitled to burial according to the said Section must be filed with the Village of Liverpool Board of Trustees by the grave owner.</p>
-                                <p class="interments">Disinterments will be allowed, provided the provisions of &sect;1510(c) of the Not-for-Profit Corporation Law are complied with.</p>
-                                <p class="interments">Interments on Saturdays, Sundays, and Holidays will be governed by Cemetery Directives 201.8 and 201.12.</p>
-                                <p class="interments">Only one interment may be made in a grave. However two (2) cremated remains or an infant may be interred in an occupied grave.</p>
-                                <p class="interments">Cremated remains will not be permitted to be scattered in any part of the Cemetery.</p>
-                                <p class="interments">Concrete vaults or concrete grave liners will be required for interments in all graves purchased on or after January 1, 1985, in accordance with the provisions of Cemetery Board Directive 201.6.</p>
-                                <p class="interments">While a funeral or interment is being conducted, all nearby work of any description shall cease.</p>
-                                <p class="interments">Graves may not be opened between October and April when frost and weather conditions warrant such refusal.</p>
-                            </div>
-
-                            <!-- floral decorations -->
-                            <div style="line-height: 1; text-align: center;">
-                                <span style="font-size: 14px; font-family: ABeeZee, sans-serif; font-weight: bold;">Floral Decorations</span>
-                            </div>
-
-                            <div style="line-height: 1; text-align: center;">
-                                <p class="flowers">The Village of Liverpool reserves the right to remove all flowers, shrubs, trees, wreaths, or other decorations from lots as soon as they become unsightly.</p>
-                                <p class="flowers">The Village of Liverpool reserves the right to restrict the planting of shrubs and trees and to remove any shrub or tree deemed dangerous to the public, after due notice to the lot owner.</p>
-                                <p class="flowers">The cemetery will provide a list of approved plantings and correct placement.</p>
-                                <p class="flowers">The placing of marble chips, wire fences, glass blocks, glass jars, glass vases and unpainted cans as receptacles for flowers (either artificial or grown) on graves or plots is prohibited.</p>
-                                <p class="flowers">Flowers, trees, shrubs, flower pots, or other decorations are to be placed close to the monument or marker in order to facilitate grass cutting and trimming.</p>
-                                <p class="flowers">The Village of Liverpool will do everything possible to protect these floral decorations, trees, and shrubs but cannot accept any responsibility for them.</p>
-                                <p class="flowers">All holiday decorations will be removed after 30 days.</p>
-                                <p class="flowers">A general cleanup of the cemetery will begin April 1st and November 15th of each year. Out-of-season decorations, dead plants and flowers, empty containers, faded, artificial flowers and debris will be removed.</p>
-                                <p class="flowers">Refuse, wilted flowers, and decorations are to be placed in cans provided for this purpose or removed from the cemetery grounds.</p>
-                            </div>
-           
-                            <!-- monuments and markers -->
-                            <div style="line-height: 1; text-align: center;">
-                                <span style="font-size: 14px; font-family: ABeeZee, sans-serif; font-weight: bold;">Monuments and Markers</span>
-                            </div>
-
-                            <div style="line-height: 1; text-align: center;">
-                                <p class="monuments">No vault shall be built above ground without the permission of the Village of Liverpool and then only in such location as they may approve.</p>
-                                <p class="monuments">No mausoleum will be approved for construction.</p>
-                                <p class="monuments">No monuments or markers shall be permitted which utilize colors other than those of natural stone.</p>
-                                <p class="monuments">All foundations will be constructed by the Village of Liverpool Department of Public Works.</p>
-                                <p class="monuments">All work done in the cemetery shall be done by the Village of Liverpool employees under the control of the Superintendent of Public Works.</p>
-                                <p class="monuments">Only one monument or upright marker shall be permitted per grave. Both shall be set in accordance with the general plan of the cemetery and shall conform with said plan in size and material.</p>
-                                <p class="monuments">The base of the monuments and markers is restricted to dimensions which will not cover more than 65% of the width of the grave/graves. Every monument or marker shall be at least 6 inches in thickness and restricted to 4 feet in height unless approved by the Village of Liverpool Board of Trustees.</p>
-                                <p class="monuments">Inscriptions on and placements of all monuments and markers must conform to section and lot and the general plan of the cemetery.</p>
-                                <p class="monuments">The bases of all monuments and markers shall be finished true and level so as to fit on foundations without wedging or sprawls.</p>
-                                <p class="monuments">No monuments and markers will be allowed to be delivered to the cemetery until the foundation is installed and ready to receive the monument or marker.</p>
-                                <p class="monuments">All monuments or markers must be constructed of granite or bronze.</p>    
-                            </div>
-
-                            <!-- funerals -->
-                            <div style="line-height: 1; text-align: center;">
-                                <span style="font-size: 14px; font-family: ABeeZee, sans-serif; font-weight: bold;">Funerals</span>
-                            </div>
-
-                            <div style="line-height: 1;">
-                                <p class="funerals">Funerals must be at the cemetery by 3:00 p.m., in order that workmen will have sufficient time to properly close the grave and remove equipment before the end of the workday.</p>
-                                <p class="funerals">All funerals, processions, and vehicles will be under the control of the Superintendent of Public works or his employees while in the cemetery.</p>
-                            </div>
-
-                        </div>             
-                    </div>
-                    
-                    
-                    <div class="text-plugin neo-asset" style="width: 955px; position: absolute; top: 107px; left: 5px; height: 76px; z-index: 395;" data-module-class="neo.TextModule" 
-                        data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:null,&quot;borderLeftColor&quot;:null,&quot;borderBottomColor&quot;:null,&quot;borderRightColor&quot;:null,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-region="footer" id="asset-1516037026218" data-ng-controller="TextPluginController" data-ng-click="select();" data-ng-dblclick="selectAndEdit();"> 
-                    
-                        <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); opacity: 1; border-style: none; border-color: rgb(51, 51, 51); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px; position: relative;" spellcheck="false">
-                            <div style="line-height: 1;">
-                                <p class="intro">As in many other communities of the early nineteenth century, Liverpool had its first cemetery in the heart of the Village. The graves encircled the Union building which served as both church and school. Revolutionary veterans were buried there only to be disinterred later and reburied in the Village cemetery on Tulip Street</p>
-                            </div> 
-                        </div>
-                    </div> 
-
-                    <div class="neo-asset image-plugin" style="width: 961px; height: 205.342px; position: absolute; top: 195px; left: -1px; z-index: 396;" data-module-class="neo.ImageModule" data-original-width="960" data-original-height="203" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:null,&quot;borderLeftColor&quot;:null,&quot;borderBottomColor&quot;:null,&quot;borderRightColor&quot;:null,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" id="asset-1516037049141"> 
-            
-                        <div class="neo-asset-inner" style="background-color: rgba(255, 255, 255, 0); opacity: 1; border-style: none; border-color: rgb(51, 51, 51); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;"> 
-            
-                            <img src="assets/cemetery.jpg" alt="a panoramic image of the cemetery during a bright day in the summer." style="width: 959px"> 
-            
-                        </div> 
-            
-                    </div> 
-            
-                    <div class="text-plugin neo-asset" style="width: 968px; height: auto; position: absolute; top: 395px; left: 0px; z-index: 397;" data-module-class="neo.TextModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:null,&quot;borderLeftColor&quot;:null,&quot;borderBottomColor&quot;:null,&quot;borderRightColor&quot;:null,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" id="asset-1516037074129" data-ng-controller="TextPluginController" data-ng-click="select();" data-ng-dblclick="selectAndEdit();"> 
-            
-                        <div class="neo-asset-inner mCS_destroyed" style="background-color: rgba(255, 255, 255, 0); opacity: 1; border-style: none; border-color: rgb(51, 51, 51); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px; position: relative;" spellcheck="false"> 
-            
-                            <div style="line-height: 1;"> 
-            
-                                <span style="font-family: ABeeZee, sans-serif; font-size: 12px; color: #171616;">Plots in the original section of the cemetery were given to residents as a gift. There are no plots available in the older section of the cemetery.</span> 
-            
-                            </div>
-            
-                            <div style="line-height: 1;"> 
-            
-                                <span style="font-family: ABeeZee, sans-serif; font-size: 12px; color: #171616;">The Village Board of Trustees opened the perimeter of the cemetery on 5th Street, 6th Street and Alder Street for the sale of cemetery plots in 2000. There were 283 plots for sale at that time. There are no longer plots available for purchase.</span> 
-            
-                            </div>
-            
-                            <div style="line-height: 1;"> 
-            
-                                <span style="font-family: ABeeZee, sans-serif; font-size: 12px; color: #171616;">The Village Clerk's office maintains a listing of all burials. A great deal of family history information (obituaries, etc.) is available at the historian's office (see <span><span>Vil</span>lage</span> History link above). If you need further assistance, please call the Village Clerk's office at 315-457-3441. Another interesting <span>website</span> to <span>search</span> is</span> 
-            
-                                <span style="color: #171616;"><strong><span style="font-family: ABeeZee, sans-serif; font-size: 12px;">&nbsp;</span><span style="font-family: ABeeZee, sans-serif; font-size: 12px;"><a href="//findagrave.com" target="_blank" data-link-type="website" style="color: #171616;">Find A Grave</a>.&nbsp;</span></strong><span style="font-family: ABeeZee, sans-serif; font-size: 12px;">Here you can search for burials all over the world including celebrities and other notable people as well as your own relatives.</span></span> 
-            
-                            </div> 
-            
-                        </div> 
-            </div> 
-        
-        </div> 
-        
-    </div> 
-        
-    <div class="global-region bottom bg-color-1" id="footer" style="display: none; background-color: inherit;"> 
-        
-        <div class="global-region-inner" style="margin: 0px auto; height: 300px; position: relative; background-color: inherit; width: 962px;"> 
-        
-            
-            <div class="neo-asset text-plugin" id="asset-1513015992863" style="left: 0.39px; top: -30px; width: 300px; height: auto; position: absolute; z-index: 101;" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:null,&quot;borderLeftColor&quot;:null,&quot;borderBottomColor&quot;:null,&quot;borderRightColor&quot;:null,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(0, 0, 0, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-module-class="neo.TextModule" data-ng-controller="TextPluginController" data-ng-click="select();" data-ng-dblclick="selectAndEdit();"> 
-            
-                <div class="neo-asset-inner mCS_destroyed" id="asset-1513015992863-neo-asset-inner" style="border-color: rgb(51, 51, 51); position: relative; opacity: 1; box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5); background-image: none; background-color: rgba(0, 0, 0, 0);" spellcheck="false"> 
-            
-                    <div class="center-align footer-content" style="line-height: 1;">
+            <main>
                 
-                        Monday - Friday 8:00 am to 4:00pm 
-            </div> 
-            <div class="center-align footer-content" style="line-height: 1;">
-                Emergency - 911 
-            </div> 
-            <div class="center-align footer-content" style="line-height: 1;">
-                Sewer&nbsp; 24/7 - 315-435-3457 
-            </div> 
-            </div> 
-            </div> 
-            <div class="neo-asset text-plugin" id="asset-1513092112893" style="left: 310.4px; top: -50px; width: 300px; height: 84px; position: absolute; z-index: 101;" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:null,&quot;borderLeftColor&quot;:null,&quot;borderBottomColor&quot;:null,&quot;borderRightColor&quot;:null,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgb(255, 255, 255)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-module-class="neo.TextModule" data-ng-controller="TextPluginController" data-ng-click="select();" data-ng-dblclick="selectAndEdit();"> 
-            <div class="neo-asset-inner mCS_destroyed" style="border-color: rgb(51, 51, 51); opacity: 1; box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5); background-image: none; background-color: rgb(255, 255, 255);"> 
-            <p class="center-align footer-content"> <span class="businessAddress">310 Sycamore Street</span><br> <span class="businessCity">Liverpool</span>, <span class="businessProvince">NY</span> <span class="businessPostalCode">13088</span> </p> 
-            </div> 
-            </div> 
-            <div class="neo-asset text-plugin" id="asset-1513091083022" style="left: 305px; top: 225px; width: 350px; height: auto; position: absolute; z-index: 101;" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:null,&quot;borderLeftColor&quot;:null,&quot;borderBottomColor&quot;:null,&quot;borderRightColor&quot;:null,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgb(255, 255, 255)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-module-class="neo.TextModule" data-ng-controller="TextPluginController" data-ng-click="select();" data-ng-dblclick="selectAndEdit();"> 
-            <div class="neo-asset-inner mCS_destroyed" id="asset-1513091083022-neo-asset-inner" style="border-color: rgb(51, 51, 51); position: relative; opacity: 1; box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5); background-image: none; background-color: rgb(255, 255, 255);" spellcheck="false"> 
-            <p class="center-align footer-content">Copyright 2017 © Village of Liverpool | All Rights Reserved</p> 
-            </div> 
-            </div> 
-            <div class="neo-asset text-plugin" id="asset-1513016045910" style="left: 650.4px; top: -30px; width: 300px; height: auto; position: absolute; z-index: 101;" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:null,&quot;borderLeftColor&quot;:null,&quot;borderBottomColor&quot;:null,&quot;borderRightColor&quot;:null,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(0, 0, 0, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-module-class="neo.TextModule" data-ng-controller="TextPluginController" data-ng-click="select();" data-ng-dblclick="selectAndEdit();"> 
-            <div class="neo-asset-inner mCS_destroyed" id="asset-1513016045910-neo-asset-inner" style="border-color: rgb(51, 51, 51); position: relative; opacity: 1; box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5); background-image: none; background-color: rgba(0, 0, 0, 0);" spellcheck="false"> 
-            <p class="center-align footer-content">Phone: <span class="businessPhone">315-457-3441</span><br> Fax: 315-457-5119 <span class="businessFax"></span></p> 
-            </div> 
-            </div> 
-            <div class="text-plugin neo-asset" id="asset-1516036945931" style="left: 352px; top: 300px; width: 448px; height: auto; position: absolute; z-index: 379;" data-region="footer" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:null,&quot;borderLeftColor&quot;:null,&quot;borderBottomColor&quot;:null,&quot;borderRightColor&quot;:null,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-module-class="neo.TextModule" data-ng-controller="TextPluginController" data-ng-click="select();" data-ng-dblclick="selectAndEdit();"> 
-            <div class="neo-asset-inner mCS_destroyed" style="border-color: rgb(51, 51, 51); position: relative; opacity: 1; box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5); background-image: none; background-color: rgba(255, 255, 255, 0);" spellcheck="false"> 
-            <p><span style="color: rgb(86, 150, 92); font-family: ABeeZee, sans-serif; font-size: 24px;">Village of Liverpool Cemetery</span></p> 
-            </div> 
-            </div> 
-        </div> 
-        </div> 
-        <div></div></div> 
-        <div id="bottom-area" style="height: 350px; width: 960px;" class=""></div> 
-        </div> 
-        <!--WSP_SC--> 
-        <script type="text/javascript">
-        //<!-- document.write('<'+'img style="position:fixed;" src="//scorecard.wspisp.net/logger.php'+'?tag=dW5waWQ6MjA1NzE3NzI7MjI%3D&ref='+document.referrer+'&x='+Math.random()+'" '+'width="1" height="1" alt="" '+'>'); //-->
-        </script><img style="position:fixed;" src="//scorecard.wspisp.net/logger.php?tag=dW5waWQ6MjA1NzE3NzI7MjI%3D&amp;ref=http://www.villageofliverpool.org/&amp;x=0.5821314076525258" width="1" height="1" alt="" qlo9heah3=""> 
-        <noscript>
-        <img style="position:fixed;" src="//scorecard.wspisp.net/logger.php?tag=dW5waWQ6MjA1NzE3NzI7MjI%3D" width="1" height="1" alt="" />
-        </noscript> 
-        <!--/WSP_SC--> 
-   
-   </body>
+                <section>
+                    <h1>Home Page</h1>
+                </section>
+
+                <section>
+                    <p>This page currently is not finished, please see the cemetery links, either below or in the nav bar above</p>
+                    <ul>
+                        <li><a href="cemetery.html">Main Cemetery Page</a></li>
+                        <li><a href="restoration-project.html">Restoration Project</a></li>
+                        <li><a href="stay-in-touch.html">Stay In Touch</a></li>
+                        <li><a href="donations.html">Donations</a></li>
+                        <li><a href="burials.html">Burials</a></li>
+                        <li><a href="history.html">History</a></li>
+                    </ul>
+                    <p>Please note the main changes as follows:</p>
+                    <ul>
+                        <li>font size</li>
+                        <li>slight texture to background of the pages, taken from the original contact page</li>
+                        <li>resized and recentered navigation bar with responsive highlighting</li>
+                        <li>image centering adjustments</li>
+                        <li>page resizing and scaling</li>
+                            <ul>
+                                <li>If you resize the window that you are viewing this page in, the page should respond and adapt to still be easy to read</li>
+                                <li>The mobile format navigation bar is still a work in progress</li>
+                            </ul>
+                        <li>footer at the bottom of each page with copyright credit to the village, tying back to the colors in the header navigational bar</li>
+                        <li>additional links between pages and for phone numbers, emails, and external websites</li>
+                    </ul>
+                </section>
+                
+            </main>        
+        </div>
+    <footer>
+        <p>&copy; 2023 Village of Liverpool</p>
+    </footer>
+    </body>
+    
+    
+    
+    <script>
+        document.getElementById('hamburger').addEventListener('click', clickMenu);
+
+        function clickMenu() {
+            let nav = document.querySelector('nav');
+
+            nav.classList.toggle("shown")
+            document.querySelector('section').classList.toggle("shown")
+        }
+
+    </script>
+
+    <script>
+        document.querySelector('nav > ul > li').addEventListener('click', clickMenu);
+
+        function clickMenu() {
+            let sublist = document.querySelector('nav > ul > li > ul');
+
+            sublist.classList.toggle("shown")
+        }
+    </script>
+    
+
 </html>

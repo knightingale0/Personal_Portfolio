@@ -42,7 +42,12 @@ nav > ul > li {
     padding: 15px 10px;
 }
 
+nav > ul > li:hover {
+    color: #f9f9f9;
+}
+
 nav > ul > li:hover > ul {
+    color: #000000;
     display: block;
     margin-top: 15px;
 }
@@ -97,7 +102,11 @@ header div {
 div.image {
     display: flex;
     justify-content: center;
-    width: 100%;
+    max-width: 100%;
+}
+
+img{
+    max-width: 80%;
 }
 
 main a {
