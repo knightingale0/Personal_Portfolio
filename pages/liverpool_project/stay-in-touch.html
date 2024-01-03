@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" lang="en">
+        <title>Stay in Touch</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="stylesheet" type="text/css" href="styles/smallh2.css">
+        <!-- <link rel="stylesheet" type="text/css" href="styles/cemetery.css"> -->
+    </head>
+
+    <body>
+        <div id="notfooter">
+            <header>
+                <div>
+                    <h3 style="display: inline-block">Navigational Links</h3>
+                    <img id="hamburger" src="assets/hamburger.svg" alt="a simple vector menu icon" style="display: inline; max-width:1em;">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="agenda-minutes.html">Agenda &amp; Minutes &#9660;</a>
+                            <ul>
+                                <li><a href="board-of-trustees.html">Board of Trustees</a></li>
+                                <li><a href="planning-board.html">Planning Board</a></li>
+                                <li><a href="zoning-board-of-appeals.html">Zoning Board of Appeals</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="village-departments.html">Village Departments &#9660;</a>
+                            <ul>
+                                <li><a href="village-clerk.html">Village Clerk</a></li>
+                                <li><a href="financial.html">Financial</a></li>
+                                <li><a href="justice-court.html">Justice Court</a></li>
+                                <li><a href="dept-of-public-works.html">Dept. of Public Works</a></li>
+                                <li><a href="code-enforcement.html">Code Enforcement</a></li>
+                                <li><a href="stormwater-management-ms4.html">Stormwater Management MS4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="police-department.html">Police Department &#9660;</a>
+                            <ul>
+                                <li><a href="police-information.html">Police Information</a></li>
+                                <li><a href="police-reform.html">Police Reform</a></li>
+                                <li><a href="police-certifications.html">Police Certifications</a></li>
+                                <li><a href="police-services.html">Police Services</a></li>
+                                <li><a href="police-history.html">Police History</a></li>
+                                <li><a href="liverpool-pba.html">Liverpool PBA</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="links-forms.html">Links &amp; Forms &#9660;</a>
+                            <ul>
+                                <li><a href="forms.html">Forms</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="village-history.html">Village History</a></li>
+                        <li><a href="cemetery.html">Cemetery &#9660;</a>
+                            <ul>
+                                <li><a href="restoration-project.html">Restoration Project</a></li>
+                                <li><a href="stay-in-touch.html">Stay In Touch</a></li>
+                                <li><a href="donations.html">Donations</a></li>
+                                <li><a href="burials.html">Burials</a></li>
+                                <li><a href="history.html">History</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="general-info-faqs.html">General Info &amp; FAQs &#9660;</a>
+                            <ul>
+                                <li><a href="faqs.html">FAQs</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="tree-committee.html">Tree Committee</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+        
+            <main>
+
+                <div class="image">
+                    <img src="assets/stayintouch.jpg" alt="a graphic with a few website links and addresses for mailing">
+                </div>
+
+                <!-- <section>
+                    <h1>Stay in Touch!</h1>
+                </section>
+                
+                <section>
+                    <h2>Follow our project updates:</h2>
+                    <ul>
+                        <li>Sign up for our contact list to find out about future events and potential volunteer opportunities</li>
+                        <li>Visit the Village of Liverpool Website: <a href="hhtp://www.villageofliverpool.org">http://www.villageofliverpool.org/</a></li>
+                        <li>"Like" the <a href="https://www.facebook.com/villageofliverpool/">Village of Liverpool Facebook Page</a></li>
+                        <li>Post photos to social media using the hashtag <span class="hashtag">&num;liverpoolcemetery</span></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Show your support:</h2>
+                    <ul>
+                        <li>Write letters/emails of support:</li>
+                        <li>Mail to:
+                            <ul class="address">
+                                <li>Village of Liverpool</li>
+                                <li>310 Sycamore Street</li>
+                                <li>Liverpool, NY 13088</li>
+                            </ul>
+                        </li>
+                        <li>Email: <a href="mailto:villageclerk@villageofliverpool.org">villageclerk@villageofliverpool.org</a></li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Donate!</h2>
+                    <ul>
+                        <li>Donate via check made out to "Village of Liverpool" and write "Cemetery Fund" in the Memo field</li>
+                        <li>Mail to:
+                            <ul class="address">
+                                <li>Village of Liverpool</li>
+                                <li>310 Sycamore Street</li>
+                                <li>Liverpool, NY 13088</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section> -->
+
+            </main>
+        </div>
+
+        <footer>
+            <p>&copy; 2023 Village of Liverpool</p>
+        </footer>
+    
+    </body>
+
+    
+
+    <script>
+        document.getElementById('hamburger').addEventListener('click', clickMenu);
+
+        function clickMenu() {
+            let nav = document.querySelector('nav');
+
+            nav.classList.toggle("shown")
+            document.querySelector('section').classList.toggle("shown")
+        }
+
+    </script>
+
+    <script>
+        document.querySelector('nav > ul > li').addEventListener('click', clickMenu);
+
+        function clickMenu() {
+            let sublist = document.querySelector('nav > ul > li > ul');
+
+            sublist.classList.toggle("shown")
+        }
+    </script>
+    
+
+</html>
